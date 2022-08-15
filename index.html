@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans:wght@400;500;700&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="slider">
+    <h2>Single Item</h2>
+    <div class="slider-container">
+      <div class="slider__content">
+        <div class="slider__wrapper " style="margin-left: -540px;">
+          <div class="slide">
+            <h3>7</h3>
+          </div>
+          <div class="slide">
+            <h3>1</h3>
+          </div>
+          <div class="slide">
+            <h3>2</h3>
+          </div>
+          <div class="slide">
+            <h3>3</h3>
+          </div>
+          <div class="slide">
+            <h3>4</h3>
+          </div>
+          <div class="slide">
+            <h3>5</h3>
+          </div>
+          <div class="slide">
+            <h3>6</h3>
+          </div>
+          <div class="slide">
+            <h3>7</h3>
+          </div>
+          <div class="slide ">
+            <h3>1</h3>
+          </div>
+        </div>
+      </div>
+      <div class=" btn">
+        <button id="btn-prev" class="prev">
+          &#10094;
+        </button>
+        <button id="btn-next" class="next">
+          &#10095;
+        </button>
+      </div>
+      <div class=" all-dots">
+        <span class="dot dot__hidden"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot dot__hidden"></span>
+      </div>
+    </div>
+  </div>
+  <script src="slider.js"></script>
+</body>
+
+</html>
